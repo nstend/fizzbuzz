@@ -1,0 +1,246 @@
+Last login: Mon Feb 17 19:03:48 on ttys000
+Ninas-MacBook-Pro-6:~ nstender$ cd Documents/Extracurriculars\:Work/Digital\ Wes/Projects/Week\ 1\ Homework/
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ pwd
+/Users/nstender/Documents/Extracurriculars:Work/Digital Wes/Projects/Week 1 Homework
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ irb
+2.0.0-p353 :001 > quit
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git init
+Initialized empty Git repository in /Users/nstender/Documents/Extracurriculars:Work/Digital Wes/Projects/Week 1 Homework/.git/
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git remote add origin https://github.com/nstend/fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/nstend/fizzbuzz'
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git pull origin master
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (4/4), done.
+From https://github.com/nstend/fizzbuzz
+ * branch            master     -> FETCH_HEAD
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 3
+-bash: 3: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ irb
+2.0.0-p353 :001 > 3
+ => 3 
+2.0.0-p353 :002 > quit
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ rub control_flow.rb
+-bash: rub: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+6
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+6
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 5%3
+-bash: 5%3: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ irb
+2.0.0-p353 :001 > 5%3
+ => 2 
+2.0.0-p353 :002 > quit
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:4: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+control_flow.rb:6: syntax error, unexpected keyword_end, expecting end-of-input
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:4: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+control_flow.rb:6: syntax error, unexpected keyword_end, expecting end-of-input
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+6
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:4: syntax error, unexpected '}', expecting =>
+if ( ({n}%3.0) == 0) 
+         ^
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+6
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+6
+control_flow.rb:4:in `<main>': undefined method `zero' for "6":String (NoMethodError)
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+6
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ #get number
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ puts "gimme a number yo"
+-bash: puts: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ n = gets.chomp
+-bash: n: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ if ( (n % 3.0) == 0) 
+-bash: syntax error near unexpected token `=='
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ puts "fizz"
+-bash: puts: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:4: syntax error, unexpected '=', expecting ')'
+if ( (n % 3.0) = 0) 
+                ^
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+3
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+3
+fizz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:8: syntax error, unexpected end-of-input, expecting keyword_end
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:8: syntax error, unexpected end-of-input, expecting keyword_end
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+15
+fizz
+buzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ control_fow.rb
+-bash: control_fow.rb: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:14: syntax error, unexpected end-of-input, expecting keyword_end
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+15
+fizz
+buzz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:16: syntax error, unexpected end-of-input, expecting keyword_end
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:6: syntax error, unexpected keyword_elsif
+elsif (n % 3.0) == 0
+     ^
+control_flow.rb:11: syntax error, unexpected keyword_elsif
+elsif (n % 5.0) == 0 
+     ^
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+control_flow.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+9
+buzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+3
+buzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+5
+fizz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+15
+fizz
+buzz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+9
+buzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow..rb
+ruby: No such file or directory -- control_flow..rb (LoadError)
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+5
+fizz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 30
+-bash: 30: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+30
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+10
+fizz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+30
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+9
+buzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+9
+fizz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 10
+-bash: 10: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+10
+buzz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+15
+fizz
+buzz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+10
+buzz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 5
+-bash: 5: command not found
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+5
+buzz
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+15
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+5
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+30
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+18
+fizz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+25
+buzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ ruby control_flow.rb
+gimme a number yo
+300
+fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git remote add origni https://github.com/nstend/fizzbuzz
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git remote add origin https://github.com/nstend/fizzbuzz
+fatal: remote origin already exists.
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git add .
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git commit -m "control flow for fizzbuzz"
+[master fb4a0dc] control flow for fizzbuzz
+ 2 files changed, 11 insertions(+)
+ create mode 100644 Feb 17 Notes.docx
+ create mode 100644 control_flow.rb
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 16.30 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/nstend/fizzbuzz
+   7775fe1..fb4a0dc  master -> master
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git pull origin master
+From https://github.com/nstend/fizzbuzz
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ git push origin master
+Everything up-to-date
+Ninas-MacBook-Pro-6:Week 1 Homework nstender$ 
